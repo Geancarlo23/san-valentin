@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #ffebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen del sobre */
+.sobre img {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.sobre img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de la carta */
+.carta, .mensaje {
+    background-color: white;
+    border: 3px solid pink;
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Ocultar elementos inicialmente */
+.oculto {
+    display: none;
+}
+
+/* Texto de la pregunta */
+.pregunta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+/* Botones */
+.botones {
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#btnSi {
+    background-color: #ff4d79;
+    color: white;
+}
+
+#btnSi:hover {
+    background-color: #e6004c;
+}
+
+#btnNo {
+    background-color: #d1d1d1;
+    color: black;
+    position: relative;
+}
+
+/* Mensaje de respuesta */
+.respuesta {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+/* Imagen animada */
+.mensaje img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+#btnSi {
+    background-color: #ff4d79;
+    color: white;
+}
+
+#btnNo {
+    background-color: #d1d1d1;
+    color: black;
+    position: relative;
+}
